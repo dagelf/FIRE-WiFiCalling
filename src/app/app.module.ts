@@ -6,6 +6,7 @@ import { WiFiCalling } from './app.component';
 
 import { WiFiCallPage } from '../pages/wificall/wificall';
 import { CallPage } from '../pages/call/call';
+import { CallingPage } from '../pages/call/calling';
 import { ContactsPage } from '../pages/contacts/contacts';
 import { HistoryPage } from '../pages/history/history';
 import { TopupPage } from '../pages/topup/topup';
@@ -30,6 +31,7 @@ import { APP_CONFIG, VOUCHER_DI_CONFIG } from './app-config'
     WiFiCalling,
     WiFiCallPage,
     CallPage,
+    CallingPage,
     ContactsPage,
     HistoryPage,
     TopupPage,
@@ -50,6 +52,7 @@ import { APP_CONFIG, VOUCHER_DI_CONFIG } from './app-config'
     WiFiCalling,
     WiFiCallPage,
     CallPage,
+    CallingPage,
     ContactsPage,
     HistoryPage,
     TopupPage,
