@@ -3,15 +3,15 @@
     <ion-row>
       <ion-col>
         <ion-row>
-          Status: active
+          Status: {{voucher.state}}
         </ion-row>
         <ion-row>
-          Code: pe32he75dh92e7
+          Code: {{ voucher.code }}
         </ion-row>
       </ion-col>
       <ion-col>
         <ion-row>
-          R49/50
+          R{{ voucher.creditRemaining }}/{{ voucher.creditTotal }}
         </ion-row>
         <ion-row>
           AVAILABLE
@@ -19,22 +19,22 @@
       </ion-col>
     </ion-row>
     <ion-row>
-      Bulk #: XXXXXXXXXXXX
+      Bulk #: {{ voucher.bulkNumber }}
     </ion-row>
     <ion-row>
-      Vendor: XXXXXXXXXXXX
+      Vendor: {{ voucher.vendor }}
     </ion-row>
     <ion-row>
-      Creation: 2017/01/02
+      Creation: {{ voucher.created }}
     </ion-row>
     <ion-row>
-      Activation: 2017/01/02
+      Activation: {{ voucher.activated }}
     </ion-row>
     <ion-row>
-      Assignment: 2017/01/04
+      Assignment: {{ voucher.assigned }}
     </ion-row>
     <ion-row>
-      Depletion: Not yet depleted
+      Depletion: {{ voucher.depleted }}
     </ion-row>
   </ion-grid>
 

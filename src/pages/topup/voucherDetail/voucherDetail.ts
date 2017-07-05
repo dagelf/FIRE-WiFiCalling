@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import {Voucher} from '../../../providers/voucher'
+import { Voucher } from '../../../providers/voucher'
 
 @IonicPage({
   segment: 'detail/:id',
@@ -17,8 +17,7 @@ export class VoucherDetail {
   constructor(
       public navCtrl: NavController,
       public navParams: NavParams,
-      voucher: Voucher,
       ) {
-
+          this.voucher = navParams.get('voucher');
       }
 }
