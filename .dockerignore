@@ -1,0 +1,6 @@
+.dockerignore
+Dockerfile*
+*.apk
+*.tar
+*.tar.gz
+build.sh
